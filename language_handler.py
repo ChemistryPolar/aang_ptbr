@@ -1,11 +1,13 @@
 from en_dict import get_en_dict
 from es_dict import get_es_dict
+from pt-br_dict import get_pt-br_dict
 
-LANG_LIST = ['en', 'es']
+LANG_LIST = ['en', 'es', 'pt-br']
 
 lang_dicts = {
   "en": get_en_dict(),
-  "es": get_es_dict()
+  "es": get_es_dict(),
+  "pt-br": get_pt-br_dict()
 }
 
 
